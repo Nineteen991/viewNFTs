@@ -12,7 +12,7 @@ const api = process.env.MORALIS_API_KEY
 
 app.use(cors({
   origin: 'http://localhost:3000',
-  // credentials: true,
+  // credentials: true, 
 }))
 app.use(express.json())
 app.use(bodyParser.json({ limit: "30mb", extended: true }))
