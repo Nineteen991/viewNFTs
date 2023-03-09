@@ -1,0 +1,26 @@
+.nft-card-div
+  width: 100%
+  display: grid 
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr))
+  grid-gap: 2rem
+  
+.nft-card
+  margin-bottom: 2rem
+  width: 100%
+  border: 1px solid $orange
+  border-radius: 1rem
+  box-shadow: 2px 2px $orange
+
+.nft-cards
+  display: grid 
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr))
+  grid-gap: 2rem
+
+.nft-card
+  align-self: center
+  overflow: hidden
+
+.nft-name
+  text-align: center
+  color: white
+  @include h3-font-size
